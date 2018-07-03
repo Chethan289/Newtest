@@ -20,6 +20,7 @@ public class Test2 {
 		driver.findElement(By.name("commit")).click();
 		
 		String title=driver.getTitle();
+		System.out.println("Chethan Welcomes you");
 		Assert.assertEquals(title,"GitHub");
 		/*if(title.equals("GitHub"))
 		{
